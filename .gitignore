@@ -51,3 +51,4 @@ python-venv
 venv*
 .expected
 **/__pycache__/
+/data/

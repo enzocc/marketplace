@@ -42,6 +42,8 @@ containers:
         - POSTGRES_USER=api
         - POSTGRES_DATABASE=api
         - POSTGRES_PASSWORD=super-secret
+      volume:
+        - data/postgres/data:/var/lib/postgresql/data
 
 networks:
   marketplace:
