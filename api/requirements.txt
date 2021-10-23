@@ -1,0 +1,4 @@
+flask  # api
+flask-sqlalchemy  # database
+alembic  # migrations
+gunicorn  # running everything
